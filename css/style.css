@@ -1,0 +1,28 @@
+body{
+    background-color: #d6ce93;
+}
+
+header{
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.recipe-img{
+    height: 200px;
+}
+.navbar{
+    cursor: pointer;
+}
+.recipe img{
+    border-radius: 20px;
+}
+.recipe{
+    overflow: hidden;
+}
+img{
+    transition: all 1s;
+}
+
+.recipe img:hover{
+   transform: scale(1.1);
+}
